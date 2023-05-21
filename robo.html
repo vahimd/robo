@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<center><body>
+    <h1>Dancing robo</h1>
+    <div class="robo">
+        <div class="face">
+        <div class="eye1"></div>
+        <div class="eye2"></div>
+        <div class="eye3"></div>
+        <div class="body">
+            <div class="body1"></div>
+            <div class="body2"></div>
+            <div class="body3"></div>
+            <div class="body4"></div>
+            <div class="body5"></div>
+            <div class="hand1"></div>
+            <div class="hand2"></div>
+            <div class="hand3"></div>
+            <div class="hand4"></div>
+                <div class="leg1"></div>
+                <div class="leg2"></div>
+                <div class="leg3"></div>
+                <div class="leg4"></div>
+            </div>
+        </div>
+    </div>
+</body></center>
+</html>
+<style>
+    body{
+        background-color: yellowgreen;
+    }
+    .face{
+        width: 117px;
+        height: 100px;
+        background-color: aqua;
+    border-radius: 50% 50% 40% 40%;
+    position: relative;
+    margin-top: 100px;
+    }
+    .face:hover{
+        background-color: coral;
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        
+    }
+    .eye1{
+        width: 90px;
+        height: 45px;
+        border-radius: 10px;
+        background-color: blue;
+        border-radius:  10px 10px 50% 50%;
+        position: relative;
+        top: 40px;
+        right: 1px;
+    }
+    .eye1:hover{
+        background-color: blueviolet;
+    }
+    .eye2{
+        width: 17px;
+        height: 20px;
+        background-color: white;
+        position: absolute;
+        right: 70px;
+        top: 50px;
+        border-radius: 50%;
+    }
+    .eye2:hover{
+        transform: scale(2) ;
+    }
+    .eye3{
+        width: 17px;
+        height: 20px;
+        background-color: white;
+        position: absolute;
+        left: 70px;
+        top: 50px;
+        border-radius: 50%;
+    }
+    .eye3:hover{
+        transform: scale(2) ;
+    }
+    .hand1{
+    position: absolute;
+    width: 33px;
+    height:90px;
+    border-radius: 40% 40% 40% 40%;
+    background-color: aqua;
+    left:120px;
+    top: 10px;
+}
+.hand1:hover{
+    transform: rotate(30deg);
+    background-color: coral;
+}
+.hand2{
+    position: absolute;
+    width:33px;
+    height:90px;
+    border-radius: 40% 40% 40% 40%;
+    background-color: aqua;
+    right:120px;
+    top: 10px;
+}
+.hand2:hover{
+    transform: rotate(30deg);
+    background-color: coral;
+}
+.hand3{
+    position: absolute;
+    width: 30px;
+    height:30px;
+    border-radius: 40% 40% 40% 40%;
+    background-color: blue;
+    right:122px;
+    top: 40px;
+}
+.hand3:hover{
+    background-color: yellow;
+}
+.hand4{
+    position: absolute;
+    width: 30px;
+    height:30px;
+    border-radius: 40% 40% 40% 40%;
+    background-color: blue;
+    right: -38px;
+    top: 40px;
+}
+.hand4:hover{
+    background-color: yellow;
+}
+.leg1{
+    position:absolute;
+    width:30px;
+    height:50px;
+    border-radius: 40% 40% 30% 30%;
+    background-color: aqua;
+    left:100px;
+    top: 125px;
+    padding-top:20px;
+    
+}
+.leg1:hover{
+    transform: rotate(80deg);
+    background-color: coral;
+}
+.leg2{
+    position:absolute;
+    width:30px;
+    height:50px;
+    border-radius: 40% 40% 30% 30% ;
+    background-color: aqua;
+    right:100px;
+    top: 125px;
+    padding-top: 20px;
+}
+.leg2:hover{
+    transform: rotate(90deg);
+background-color: coral;
+}
+.leg3{
+    position: absolute;
+    width: 26px;
+    height:9px;
+    border-radius: 50%;
+    background-color: blue;
+    right: 101px;
+    top: 185px;
+}
+.leg3:hover{
+    transform: rotate(80deg);
+    background-color: blueviolet;
+}
+
+.leg4{
+    position: absolute;
+    width: 26px;
+    height:9px;
+    border-radius: 50%;
+    background-color: blue;
+    left: 102px;
+    top: 185px;
+}
+.leg4:hover{
+    transform: rotate(80deg)
+}
+
+.body{
+    background-color: aqua;
+    position: relative;
+    height: 150px;
+    width: 115px;
+    border-radius: 40% 40% 40% 40% ;
+    top: 90px;
+    margin-top: -30px;
+}
+.body:hover{
+    background-color: coral;
+}
+.body1{
+    width: 100px;
+    height: 58px;
+    background-color: grey;
+    border-radius: 50% 50% 50% 50%;
+    position: absolute;
+    top: 49px;
+    left: 8px;
+}
+.body1:hover{
+    background-color: darkgreen;
+}
+.body2{
+    width: 42px;
+    height: 42px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    top: 58px;
+    left: 38px;
+}
+.body3{
+    width: 32px;
+    height: 32px;
+    background-color: blue;
+    border-radius: 50%;
+    position: absolute;
+    top: 63px;
+    left: 43px;
+}
+.body3:hover{
+    transform: scale(2);
+    background-color: brown;
+}
+.body4{
+    width: 90px;
+    height: 35px;
+    background-color: blue;
+    border-radius: 50% 50% 4px 4px;
+    position: absolute;
+    top: 10px;
+    left: 12px;
+}
+.body4:hover{
+    transform: scale(1);
+    background-color: blueviolet;
+}
+.body5{
+    width: 90px;
+    height: 35px;
+    background-color: blue;
+    border-radius:  4px 4px 50% 50% ;
+    position: absolute;
+    top: 110px;
+    left: 12px;
+}
+.body5:hover{
+    background-color: blueviolet;
+}
+</style>
